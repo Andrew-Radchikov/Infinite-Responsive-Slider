@@ -2,7 +2,7 @@ const leftButton=document.querySelector(".leftButton");
 const rightButton=document.querySelector(".rightButton");
 const mainDiv=document.querySelector(".background");
 
-var imageArray=["../images/image1.jpg","../images/image2.jpg","/images/image3.jpg","/images/image4.jpg","/images/image5.jpg",
+var imageArray=["../slider/images/image1.jpg","../slider/images/image2.jpg","../slider/images/image3.jpg","../slider/images/image4.jpg","../slider/images/image5.jpg",
 "../slider/images/image6.jpg","../slider/images/image7.jpg","../slider/images/image8.jpg", "../slider/images/image9.jpg", "../slider/images/image10.jpg",
 "../slider/images/image11.jpg","../slider/images/image12.jpg"];
 
