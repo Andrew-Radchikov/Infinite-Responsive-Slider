@@ -1,0 +1,65 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.title{
+    max-width: 1440px;
+    height: 400px;
+    background-color: antiquewhite;
+    margin: 0 auto auto auto;
+}
+
+h1{
+    text-align: center;
+}
+
+h2, h4{
+    margin-left: 30px;
+}
+
+.background{
+    position: relative;
+    overflow: hidden;
+    max-width: 1440px;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(255, 255, 198);
+}
+
+img{
+    position: absolute;
+    margin: 0px;
+    width: 300px;
+}
+
+.pos{
+    transition: 2s;
+}
+
+.leftButton{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 215px;
+}
+
+.rightButton{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    top: 215px;
+}
+
+@media (max-width: 941px) {
+    .background{
+        height: 800px;
+    }
+}
